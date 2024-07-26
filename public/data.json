@@ -1,0 +1,87 @@
+[
+    {
+      "image": "https://i.ibb.co/pvZ7kZh/pexels-pixabay-257700.jpg",
+      "estate_title": "Textile Factory",
+      "id": 1,
+      "segment_name": "Factory",
+      "description": "A large textile factory with modern machinery and ample production capacity.",
+      "price": "100,000,000 Tk",
+      "status": "sale",
+      "area": "10000 sq ft",
+      "location": "Dhaka, Bangladesh",
+      "facilities": [
+        "production area",
+        "warehouse",
+        "office space"
+      ],
+      "view_property": "https://example.com/property1"
+    },
+    {
+      "image": "https://i.ibb.co/QN3QZ3P/pexels-pixabay-459728.jpg",
+      "estate_title": "Pharmaceutical Production",
+      "id": 2,
+      "segment_name": "Production plant",
+      "description": "A state-of-the-art pharmaceutical plant ready for immediate production.",
+      "price": "150,000,000 Tk",
+      "status": "rent",
+      "area": "15000 sq ft",
+      "location": "Chittagong, Bangladesh",
+      "facilities": [
+        "laboratory",
+        "production area",
+        "warehouse"
+      ],
+      "view_property": "https://example.com/property2"
+    },
+    {
+      "image": "https://i.ibb.co/sHpShb6/pexels-rezwan-1216589.jpg",
+      "estate_title": "Garment Factory",
+      "id": 3,
+      "segment_name": "Factory",
+      "description": "A well-established garment factory with high production capabilities.",
+      "price": "80,000,000 Tk",
+      "status": "sale",
+      "area": "9000 sq ft",
+      "location": "Narayanganj, Bangladesh",
+      "facilities": [
+        "production area",
+        "warehouse",
+        "office space"
+      ],
+      "view_property": "https://example.com/property3"
+    },
+    {
+      "image": "https://i.ibb.co/1n1MQwR/pexels-pixabay-209251.jpg",
+      "estate_title": "Food Processing and Cold",
+      "id": 4,
+      "segment_name": "Cold storage facility",
+      "description": "A modern food processing plant with advanced equipment and storage facilities.",
+      "price": "120,000,000 Tk",
+      "status": "rent",
+      "area": "11000 sq ft",
+      "location": "Gazipur, Bangladesh",
+      "facilities": [
+        "production area",
+        "cold storage",
+        "warehouse"
+      ],
+      "view_property": "https://example.com/property4"
+    },
+    {
+      "image": "https://i.ibb.co/5FkzCDv/5.jpg",
+      "estate_title": "Electronics Manufacturing Plant",
+      "id": 5,
+      "segment_name": "Production plant",
+      "description": "A high-tech electronics manufacturing plant with modern production lines.",
+      "price": "200,000,000 Tk",
+      "status": "sale",
+      "area": "13000 sq ft",
+      "location": "Savar, Bangladesh",
+      "facilities": [
+        "production area",
+        "warehouse",
+        "office space"
+      ],
+      "view_property": "https://example.com/property5"
+    }
+  ]

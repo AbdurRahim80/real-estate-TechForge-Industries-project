@@ -5,31 +5,42 @@ import Contact from "../Pages/Contact";
 import UpdateProfile from "../components/UpdateProfile";
 import Register from "../Pages/Register";
 import Login from "../Pages/Login";
+import PrivateRouter from "../routes/PrivateRouter";
+import Details from "../Pages/Details";
+import ErrorPage from "../Pages/ErrorPage";
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Root/>,
+        element: <Root />,
+        errorElement: <ErrorPage/>,
         children: [
             {
                 path: '/',
-                element: <Home/>
+                element: <Home />,
+                loader: () => fetch('/data.json')
             },
             {
+                path: '/estate/:id',
+                element: <PrivateRouter><Details /></PrivateRouter>,
+                loader: () => fetch(`/data.json`)
+            },
+
+            {
                 path: '/contact',
-                element: <Contact/>
+                element: <PrivateRouter><Contact /></PrivateRouter>
             },
             {
                 path: '/updateProfile',
-                element: <UpdateProfile/>
+                element: <PrivateRouter><UpdateProfile /></PrivateRouter>
             },
             {
                 path: '/register',
-                element: <Register/>
+                element: <Register />
             },
             {
                 path: '/login',
-                element: <Login/>
+                element: <Login />
             }
         ]
     }
