@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthCotext } from '../Provider/AuthProvider';
@@ -7,7 +7,7 @@ import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa6';
 
 const Login = () => {
     const navigate = useNavigate()
-    const [loginError, setLoginError] = useState(null);
+    const [ setLoginError] = useState(null);
     const { signInUser, singInWithGoogle, githubLogin } = useContext(AuthCotext);
     const [showPass, setShowPass] = useState(null);
     const handlelogin = e => {
@@ -36,7 +36,6 @@ const Login = () => {
             .catch(error => {
                 console.error(error)
             })
-        console.log("succss")
     }
 
     const handleGithubLogin = () => {

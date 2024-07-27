@@ -1,5 +1,6 @@
 
 const Footer = () => {
+    
     return (
         <div>
             <footer className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800">

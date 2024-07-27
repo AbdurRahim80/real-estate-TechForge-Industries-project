@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import  { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthCotext } from '../Provider/AuthProvider';
 import { Helmet } from 'react-helmet-async';
@@ -7,8 +7,6 @@ import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa';
 
 const Register = () => {
     const { createUser } = useContext(AuthCotext);
-    // const [error, setError] = useState(null);
-    const [successRegister, setSuccessRegister] = useState(null);
     const [showPass, setShowPass] = useState(null);
     const handleRegister = e => {
         e.preventDefault()
