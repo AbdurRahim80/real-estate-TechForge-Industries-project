@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import  { useContext, useState } from 'react';
 import { AuthCotext } from '../Provider/AuthProvider';
 import auth from '../firebase/firebase.config';
 import { updateProfile } from 'firebase/auth';
