@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { FaGlassMartini, FaWaze } from 'react-icons/fa';
-import { FaLocationDot, FaPhone, FaRegMessage, FaVoicemail } from 'react-icons/fa6';
+import { FaLocationDot, FaPhone, FaRegMessage } from 'react-icons/fa6';
 
 const Contact = () => {
     return (
