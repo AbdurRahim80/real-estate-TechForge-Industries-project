@@ -4,13 +4,13 @@ import { useLoaderData, useParams } from 'react-router-dom';
 
 const Details = () => {
     const details = useLoaderData();
-    // console.log(details);
+    
     const { id } = useParams();
     const parseId = parseInt(id)
 
     const detail = details?.find(estate => estate.id === parseId);
     const { segment_name, status, image, estate_title, location, description, area, price,facilities} = detail;
-    // console.log(detail);
+
     return (
         <div>
             <div className=" p-4 shadow-md dark:bg-gray-50 border dark:text-gray-800 my-8">
