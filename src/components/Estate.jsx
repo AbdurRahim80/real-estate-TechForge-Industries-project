@@ -1,7 +1,10 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+
 const Estate = ({ dataItem }) => {
+   
     const { id, segment_name, status, image, estate_title, location, description, area, price, } = dataItem;
+    
     return (
         <div>
             <div className="max-w-lg p-4 shadow-md dark:bg-gray-50 border dark:text-gray-800 my-8">
