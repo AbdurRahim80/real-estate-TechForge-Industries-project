@@ -5,14 +5,16 @@ import { getAuth } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDxLijxCdnffDOj4mwj3O7VRWPYbDSF3J0",
-  authDomain: "techforge-industries-70f82.firebaseapp.com",
-  projectId: "techforge-industries-70f82",
-  storageBucket: "techforge-industries-70f82.appspot.com",
-  messagingSenderId: "721724204851",
-  appId: "1:721724204851:web:87d220d7dcbaf1a1638046"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDER_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
