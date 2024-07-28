@@ -1,13 +1,15 @@
+
+
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Estate = ({ dataItem }) => {
-   
+ 
     const { id, segment_name, status, image, estate_title, location, description, area, price, } = dataItem;
     
     return (
-        <div>
-            <div className="max-w-lg p-4 shadow-md dark:bg-gray-50 border dark:text-gray-800 my-8">
+        <div >
+            <div data-aos="fade-up" data-aos-duration="8000" className="max-w-lg p-4 shadow-md dark:bg-gray-50 border dark:text-gray-800 my-8">
                 <div className="flex justify-between pb-4 border-bottom">
                     <div className="flex items-center">
                         <a rel="noopener noreferrer" href="#" className="mb-0 capitalize dark:text-gray-800">{segment_name}</a>
