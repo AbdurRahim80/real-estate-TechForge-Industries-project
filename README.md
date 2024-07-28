@@ -151,12 +151,8 @@ Extra Route: Additional protected route for meaningful content.</p>
 
 
 <h1>Additional Features</h1>
-<p>Show/Hide Password: Toggle visibility on the registration page
-
-Environment Variables: Firebase config keys.</p>
-<p>Show/Hide Password: Toggle visibility on the registration page
-
-Environment Variables: Firebase config keys.</p>
+<p>Show/Hide Password: Toggle visibility on the registration page</p>
+<p>Environment Variables: Firebase config keys.</p>
 
 
 <h1></h1>
