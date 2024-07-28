@@ -110,6 +110,8 @@ const Register = () => {
                 </div>
             </div>
         </div>
+       <h1>NPM Packages Used</h1>
+      
     );
 };
 
