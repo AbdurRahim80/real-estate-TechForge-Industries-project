@@ -6,8 +6,7 @@ import { updateProfile } from 'firebase/auth';
 const UpdateProfile = () => {
     const { user } = useContext(AuthCotext);
 
-    // const [name, setName] = useState(user?.displayName);
-    // const [photo, setPhoto] = useState(user?.photoURL); 
+
 
     const handleUpdate = (e) => {
         e.preventDefault();
