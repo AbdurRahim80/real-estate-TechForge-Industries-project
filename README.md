@@ -12,13 +12,3 @@
     <li>Firebase Integration: Reliable authentication and data management.</li>
 </ul>
 
-<ul>
-    <li>aos</li>
-    <li>firebase</li>
-    <li>react</li>
-    <li>react-dom</li>
-    <li>react-helmet</li>
-    <li>react-icons</li>
-    <li>react-router-dom</li>
-    <li>react-hot-toast</li>
-</ul>
