@@ -116,6 +116,12 @@ JSON Data: JSON data for properties with image, title, segment, description, pri
 Estate Cards: Information with "View Property" button.
 
 Estate Details Page: Detailed information on protected route.</p>
+<p>Estate Section
+JSON Data: JSON data for properties with image, title, segment, description, price, status, area, location, and facilities.
+
+Estate Cards: Information with "View Property" button.
+
+Estate Details Page: Detailed information on protected route.</p>
 
 
 <h1>Additional Pages
@@ -144,14 +150,14 @@ Update Profile: View and edit profile information
 Extra Route: Additional protected route for meaningful content.</p>
 
 
-<h1></h1>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<h1>Additional Features</h1>
+<p>Show/Hide Password: Toggle visibility on the registration page
+
+Environment Variables: Firebase config keys.</p>
+<p>Show/Hide Password: Toggle visibility on the registration page
+
+Environment Variables: Firebase config keys.</p>
+
 
 <h1></h1>
 <p></p>
