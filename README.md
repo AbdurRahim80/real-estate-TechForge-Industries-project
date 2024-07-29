@@ -1,7 +1,7 @@
 <h1>Website: TechForge Industries</h1>
 <hr>
 <h3>Website live URL</h3>
-<a href ="">https://techforge-industries-70f82.web.app/</a>
+<a href ="https://techforge-industries-70f82.web.app/" target="_blank">https://techforge-industries-70f82.web.app/</a>
 
 <h2>Features and Characteristics</h2>
  <ul>
