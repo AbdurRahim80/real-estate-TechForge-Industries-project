@@ -32,11 +32,9 @@ const AuthProvider = ({ children }) => {
         signOut(auth);
     }
 
-    const updateUserProfile = (obj) => {
-        setLoading(true)
-        // return updateProfile(auth.currentUser, obj)
-        return updateProfile(auth.currentUser, obj)
-
+    const updateUserProfile = (object)=> {
+        setLoading(true);
+        return updateProfile(auth.currentUser, object);
     }
 
     useEffect(() => {

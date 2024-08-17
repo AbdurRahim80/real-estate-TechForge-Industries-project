@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa';
 
 const Register = () => {
-    const { createUser } = useContext(AuthCotext);
+    const { createUser, updateUserProfile } = useContext(AuthCotext);
     const [showPass, setShowPass] = useState(null);
     const handleRegister = e => {
         e.preventDefault()
@@ -36,7 +36,11 @@ const Register = () => {
 
         createUser(email, password)
             .then(() => {
+                updateUserProfile({
+                    displayName: name, photoURL: PhotoURL
+                })
                 toast.success("Successful register");
+
             })
             .catch(error => {
                 toast.error(error.message);
